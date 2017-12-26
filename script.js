@@ -12,4 +12,12 @@ var awesomeBirds = ["Bluebird", "Roadrunner", "Dedert Dove", "Pigeon"]
     awesomeBirds.sort();
     awesomeBirds.length;
 
-  
+
+    // Hands On Project 3
+
+ for (var i = 0; i < awesomeBirds.length; i++)
+    if ( i == [0]) {
+        alert("Bluebirds are so beautiful.")
+    } else {
+        alert("Not as beautiful as Bluebirds.")
+    }
